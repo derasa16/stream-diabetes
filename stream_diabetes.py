@@ -5,8 +5,8 @@ import os
 import pickle
 
 # Load TensorFlow model
-model_path = 'C:/Users/ACER/Downloads/Big project ann/diabetes_model.h5'
-scaler_path = 'C:/Users/ACER/Downloads/Big project ann/robust_scaler.pkl'
+model_path = 'diabetes_model.h5'
+scaler_path = 'robust_scaler.pkl'
 
 if os.path.exists(model_path) and os.path.exists(scaler_path):
     try:
